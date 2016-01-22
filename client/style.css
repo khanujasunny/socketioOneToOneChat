@@ -1,0 +1,38 @@
+body{
+	font-family: Verdana;
+}
+
+.myUsernameCont{
+	float: right;
+clear: both;
+background: #3498DB;
+color: #FFF;
+padding: 5px;
+clear: both;
+margin: 5px;
+}
+.hidden{
+	display: none;
+}
+
+
+div.message{
+	border: 1px solid #2C3E50;
+height: 200px;
+width: 95%;
+overflow: auto;
+}
+
+p{
+	color:#e98b39;
+	padding: 5px;
+	margin: 0px;
+	font-size: 0.8em;
+}
+p.sent{
+	color: #2ECC71;
+}
+
+p.received{
+	color: #2C3E50;
+}

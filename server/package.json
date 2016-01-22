@@ -1,0 +1,10 @@
+{
+  "name": "SocketioChat",
+  "description": "Socketio one to one cha",
+  "author": "Sunny khanuja <khanujasunny91@gmail.com>",
+  "dependencies": {
+    "fs": "0.0.2",
+    "socket.io": ">1.0.0"
+  },
+  "engine": "node 0.4.x"
+}

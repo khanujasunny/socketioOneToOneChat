@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SocketIO Example for One to One Chat</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="usernameBox">Set Your Username <input type="text" class="username" /><button onclick="connectSocket()" />Connect to server</div>
+
+        <div class="mainContainer hidden" >
+            <div class="myUsernameCont"> My Username : <b><span class="myUsername"></span></b></div>
+            <br/>
+            <div >
+                <div class="message">
+                  
+                </div>
+            </div>
+            <div class="messageBox">
+                <select class="toUserSelectBox"></select>
+                <input class="message"></input>
+            <button onclick="sendMessage()" >Send Message</button>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.socket.io/socket.io-1.4.3.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script src="index.js" ></script>
+</html>
